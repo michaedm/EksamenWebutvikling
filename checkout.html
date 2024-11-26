@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="ikoner/css/solid.css">
     <link rel="stylesheet" href="ikoner/css/fontawesome.css">
     <link rel="stylesheet" href="ikoner/css/brands.css">
-    <title>Document</title>
+    <title>Checkout</title>
 </head>
 <body>
     <div>    
@@ -76,7 +76,32 @@
                 <p>Kr 1999.-</p>
             </article>
         </section>
+        <section>
+            <h2>2. Dine opplysninger</h2>
+            <h4>Leveringsadresse</h4>
+            <form>
+                <label>
+                    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> <!--ovelse 3 registrering.html-->
+                </label>
+                <label>
+                    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*">
+                </label>
+                <label>
+                    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Gateadresse*">
+                </label>
+                <label>
+                    <input type="number" min="0000" max="9999" required placeholder="Postnummer*">
+                </label>
+                <label>
+                    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Poststed*">
+                </label>
+                <input type="submit" value="Lagre">
+                <button>avbryt</button>
+            </form>
+        </section>
+        <section></section>
     </main>
+    
     
 </body>
 </html>
