@@ -3,18 +3,26 @@
   font-family: "Roboto", serif;
   display: flex;
   flex-direction: column;
-  align-items: left;
   gap: 10px;
   padding: 10px;
 }
 .global-header form {
   display: flex;
-  gap: 12px;
+  gap: 5px;
 }
 .global-header form input, .global-header form button {
   padding: 10px;
-  border: 5px solid #000000;
+  border: 2px solid #000000;
+  background-color: #ffffff;
 }
 .global-header nav ul {
+  display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  gap: 10px;
+}
+.global-header nav ul li, .global-header nav ul a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
