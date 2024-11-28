@@ -186,6 +186,57 @@ main .anmeldelser article img {
   margin: 0px;
 }
 
+.shoppingbag article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.shoppingbag article picture {
+  width: 100%;
+}
+.shoppingbag article picture img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.shoppingbag article h3 {
+  margin: 10px 0px 5px;
+}
+.shoppingbag article p {
+  margin: 0px;
+}
+
+.opplysninger form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px label;
+  gap-display: flex;
+  gap-flex-direction: column;
+  gap-text-align: left;
+  gap-font-weight: bold;
+  gap-margin-bottom: 5px;
+}
+.opplysninger form input {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.opplysninger form input[type=submit],
+.opplysninger form button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+}
+.opplysninger form button {
+  margin-top: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", serif;
 }/*# sourceMappingURL=main.css.map */
