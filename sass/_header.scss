@@ -1,0 +1,14 @@
+@use 'fonts' as *;
+
+
+.global-header{
+    font-family: $mainFont;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+nav ul {
+    list-style: none;
+}
