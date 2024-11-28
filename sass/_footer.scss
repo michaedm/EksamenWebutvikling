@@ -1,0 +1,45 @@
+@use 'fonts' as *;
+@use 'colors' as *;
+
+.global-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+    font-family: $mainFont;
+
+    section{
+        
+
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+            li{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                p:first-of-type{
+                    font-weight: bold;
+                }
+                
+                p{
+                    margin: 5px;
+                }
+                
+                
+            }
+
+
+
+        }
+
+    }
+
+
+
+
+
+}

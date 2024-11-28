@@ -25,4 +25,28 @@
 }
 .global-header nav ul li, .global-header nav ul a {
   text-decoration: none;
+}
+
+.global-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px;
+  font-family: "Roboto", serif;
+}
+.global-footer section ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.global-footer section ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.global-footer section ul li p:first-of-type {
+  font-weight: bold;
+}
+.global-footer section ul li p {
+  margin: 5px;
 }/*# sourceMappingURL=main.css.map */
