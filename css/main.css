@@ -49,4 +49,24 @@
 }
 .global-footer section ul li p {
   margin: 5px;
+}
+
+main {
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+}
+main .banner {
+  background-color: #dddbdb;
+  text-align: right;
+  padding: 40px;
+  margin: 10px;
+}
+main .banner a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

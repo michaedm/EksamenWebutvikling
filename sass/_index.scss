@@ -1,0 +1,26 @@
+@use 'fonts' as *;
+@use 'colors' as*;
+
+
+main{
+    font-family: $mainFont;
+    display: flex;
+    flex-direction: column;
+
+    .banner{
+        background-color: $gray;
+        text-align: right;
+        padding: 40px;
+        margin: 10px;
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            background-color: $white;
+            color: $black;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        
+    }
+}
