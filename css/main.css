@@ -121,9 +121,69 @@ main .anmeldelser article img {
 .smulesti ul li {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+.smulesti ul li + li:before {
+  content: ">";
 }
 .smulesti ul li a {
   text-decoration: none;
+}
+
+.produktbilder {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.produktbilder article {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.produktbilder article picture {
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+.produktbilder article picture img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.produktinfo {
+  padding: 0px;
+}
+.produktinfo a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.produktinfo p {
+  margin: 5px 0px;
+}
+
+.lignendeprodukter article {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.lignendeprodukter article picture {
+  width: 100%;
+  height: 100%;
+}
+.lignendeprodukter article picture img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lignendeprodukter article h3 {
+  margin: 0px;
+}
+.lignendeprodukter article p {
+  margin: 0px;
 }
 
 body {
