@@ -45,4 +45,32 @@ main{
             }
         }
     }
+
+    .kategorier{
+        padding: 22px;
+
+        article{
+            text-align: center;
+            padding: 100px;
+            border: 2px solid $black;
+            margin-bottom: 22px;
+        }
+    }
+
+    .anmeldelser{
+        padding: 22px;
+
+        article{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border: 0.5px solid $black;
+            margin-bottom: 22px;
+
+            img{
+                max-width: 150px;
+
+            }
+        }
+    }
 }
