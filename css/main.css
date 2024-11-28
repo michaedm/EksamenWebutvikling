@@ -69,4 +69,22 @@ main .banner a {
   color: #000000;
   padding: 10px 20px;
   font-weight: bold;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+}
+main section nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+main section nav a {
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
