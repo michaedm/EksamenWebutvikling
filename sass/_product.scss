@@ -1,0 +1,25 @@
+@use 'fonts' as *;
+@use 'colors' as *;
+
+.smulesti{
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        padding: 0px;
+        margin: 0px;
+
+        li{
+            display: flex;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+    
+}

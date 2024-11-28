@@ -109,4 +109,23 @@ main .anmeldelser article {
 }
 main .anmeldelser article img {
   max-width: 150px;
+}
+
+.smulesti ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  padding: 0px;
+  margin: 0px;
+}
+.smulesti ul li {
+  display: flex;
+  align-items: center;
+}
+.smulesti ul li a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", serif;
 }/*# sourceMappingURL=main.css.map */

@@ -3,3 +3,8 @@
 @use 'colors' as *;
 @use 'footer' as *;
 @use 'index' as *;
+@use 'product' as *;
+
+body{
+    font-family: $mainFont;
+}
