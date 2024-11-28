@@ -4,4 +4,8 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+nav ul {
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
