@@ -306,16 +306,27 @@ main .anmeldelser article img {
 
 @media (min-width: 1024px) {
   .produktbilder {
-    display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
   }
-  .produktbilder .bilderseksjon {
+  .bildeseksjon {
     display: flex;
-    flex-flow: row wrap;
-    width: 700px;
+    flex-direction: column;
+    max-width: 700px;
   }
-  .produktbilder .produktinfo {
-    width: 440px;
+  .bigpicture {
+    width: 100 .bigpicture;
+  }
+  .smallpictures {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .smallpictures picture {
+    max-width: 160px;
+    flex: 1;
   }
 }
 .shoppingbag article {
