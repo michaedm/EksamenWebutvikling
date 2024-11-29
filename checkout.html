@@ -79,7 +79,7 @@
         </section>
         <section class="opplysninger">
             <h2>2. Dine opplysninger</h2>
-            <h4>Leveringsadresse</h4>
+            <p>Leveringsadresse</p>
             <form>
                 <label>
                     <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> <!--ovelse 3 registrering.html-->
@@ -105,19 +105,22 @@
             <h3>Leveringsvalg</h3>
             <form>
                 <fieldset>
-                    <label>
+                    <label class="leveringsvalg">
                         <input type="radio" name="levering" value="expressleveringhjem" required>
-                        Expresslevering hjem
+                        <p>Expresslevering hjem</p>
+                        <p class="leveringinfo">3-4 Virkedager</p>
                     </label>
                     
-                    <label>
+                    <label class="leveringsvalg">
                         <input type="radio" name="levering" value="expresspakketilutleveringssted" required> 
-                        Express pakke til utleveringssted
+                        <p>Express pakke til utleveringssted</p>
+                        <p class="leveringinfo">1-3 virkedager</p>
                     </label>
                     
-                    <label>
+                    <label class="leveringsvalg">
                         <input type="radio" name="levering" value="standardhjemlevering" required> 
-                        standard hjemlevering
+                        <p>standard hjemlevering</p>
+                        <p class="leveringsinfo">5-8 Virkedager</p>
                     </label>
                 </fieldset>
             </form>
@@ -157,62 +160,63 @@
         </section>
     </main>
     <footer class="global-footer">
-        <section>
+        <section class="footerlogo">
             <h3>Logo</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         </section>
-        <section>
-            <h3>Kontakt</h3>
-
+        <div>
+            <section id="kontaktliste">
+                <h3>Kontakt</h3>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Adresse:</p>
+                            <p>B R A Veien 4, 1757 Halden</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Telefon:</p>
+                            <p>69 60 80 00</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>E-post:</p>
+                            <p>halden@hiof.no</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-clock"></i>
+                            <p>Åpningstider:</p>
+                            <p>Stenger 15:00</p>
+                        </li>
+                    </ul>
+            </section>
+            <section class="snarveier">
+                <h3>Snarveier</h3>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="product.html">Produkter</a>
+                        </li>
+                        <li>
+                            <a href="#Kategorier">kategorier</a>
+                        </li>
+                        <li>
+                            <a href="#kontaktoss">Kontakt oss</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="sosialemedia">
+                <h3>Sosiale medier</h3>
                 <ul>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Adresse:</p>
-                        <p>B R A Veien 4, 1757 Halden</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        <p>Telefon:</p>
-                        <p>69 60 80 00</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>E-post:</p>
-                        <p>halden@hiof.no</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-clock"></i>
-                        <p>Åpningstider:</p>
-                        <p>Stenger 15:00</p>
-                    </li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-pinterest"></i></li>
                 </ul>
-        </section>
-        <section>
-            <h3>Snarveier</h3>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="product.html">Produkter</a>
-                    </li>
-                    <li>
-                        <a href="#Kategorier">kategorier</a>
-                    </li>
-                    <li>
-                        <a href="#kontaktoss">Kontakt oss</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <h3>Sosiale medier</h3>
-            <ul>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-pinterest"></i></li>
-            </ul>
-        </section>
-    </footer>       
+            </section>
+        </div>
+    </footer>    
     
 </body>
 </html>
