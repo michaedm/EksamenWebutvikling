@@ -12,9 +12,12 @@
         
 
         ul{
+            display: flex;
+            flex-direction: column;
             list-style: none;
             padding: 0px;
             margin: 0px;
+            gap: 10px;
 
             li{
                 display: flex;
@@ -31,11 +34,71 @@
                 
                 
             }
+            
 
 
 
         }
 
+        nav{
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                    
+                    i{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+
     }
 }
 
+
+@media(min-width: 1024px){
+    .global-footer{
+        display: flex;
+        flex-direction: column;
+        
+        .footerlogo{
+            width: 100%;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-between;
+
+            .snarveier{
+                display: flex;
+                flex-direction: column;
+                
+                ul{
+                    display: flex;
+                    flex-flow: column;
+                    gap: 10px;
+                    
+                }
+            }
+
+            .sosialemedia{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+        
+        
+        
+        
+    }
+}

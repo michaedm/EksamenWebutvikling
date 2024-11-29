@@ -52,9 +52,12 @@
   font-family: "Roboto", serif;
 }
 .global-footer section ul {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0px;
   margin: 0px;
+  gap: 10px;
 }
 .global-footer section ul li {
   display: flex;
@@ -67,7 +70,46 @@
 .global-footer section ul li p {
   margin: 5px;
 }
+.global-footer section nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.global-footer section nav ul li a {
+  text-decoration: none;
+}
+.global-footer section nav ul li i {
+  display: flex;
+  flex-direction: row;
+}
 
+@media (min-width: 1024px) {
+  .global-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .global-footer .footerlogo {
+    width: 100%;
+  }
+  .global-footer div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .global-footer div .snarveier {
+    display: flex;
+    flex-direction: column;
+  }
+  .global-footer div .snarveier ul {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+  .global-footer div .sosialemedia ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 main {
   font-family: "Roboto", serif;
   display: flex;
