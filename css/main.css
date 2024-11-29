@@ -364,6 +364,9 @@ main .anmeldelser article img {
   margin: 0px;
 }
 
+.opplysninger p {
+  font-weight: bold;
+}
 .opplysninger form {
   display: flex;
   flex-direction: column;
@@ -438,6 +441,17 @@ main .anmeldelser article img {
   padding: 0px;
 }
 
+@media (min-width: 1024px) {
+  .shoppingbag .produktkort {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+  }
+  .shoppingbag .produktkort .details {
+    display: flex;
+    flex-direction: column;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -450,5 +464,6 @@ body {
   body {
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */

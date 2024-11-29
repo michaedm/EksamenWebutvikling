@@ -30,6 +30,9 @@
 }       
 
 .opplysninger{
+    p{
+        font-weight: bold;
+    }
     
     form{
         display: flex;
@@ -123,6 +126,21 @@
             }
             p{
                 padding: 0px;
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px){
+
+    .shoppingbag{
+        .produktkort{
+            display: flex;
+            flex-direction: row;
+            width: 350px;
+            .details{
+                display: flex;
+                flex-direction: column;
             }
         }
     }
