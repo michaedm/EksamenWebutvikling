@@ -348,4 +348,11 @@ main .anmeldelser article img {
 
 body {
   font-family: "Roboto", serif;
+}
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */
