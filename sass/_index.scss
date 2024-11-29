@@ -74,3 +74,47 @@ main{
         }
     }
 }
+
+@media(min-width: 1024px){
+
+    .populærproduktkort{
+        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        .produktkort {
+            max-width: 350px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+    }
+
+    .kategorier{
+        display: flex;
+        flex-flow: wrap;
+
+        
+        h2, p{
+            width: 100%;
+        }
+
+        .categoricard1, .categoricard2, .categoricard3{
+            max-width: 386px;
+        }
+
+        .categoricard4{
+            max-width: 864px;
+        }
+
+        .categoricard5{
+            max-width: 300px;
+        }
+
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
