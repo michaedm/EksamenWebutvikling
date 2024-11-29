@@ -304,6 +304,20 @@ main .anmeldelser article img {
   margin: 0px;
 }
 
+@media (min-width: 1024px) {
+  .produktbilder {
+    display: flex;
+    flex-direction: row;
+  }
+  .produktbilder .bilderseksjon {
+    display: flex;
+    flex-flow: row wrap;
+    width: 700px;
+  }
+  .produktbilder .produktinfo {
+    width: 440px;
+  }
+}
 .shoppingbag article {
   display: flex;
   flex-direction: column;

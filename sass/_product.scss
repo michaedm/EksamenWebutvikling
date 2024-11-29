@@ -107,3 +107,21 @@
 
 
 }
+
+@media(min-width: 1024px){
+    .produktbilder{
+        display: flex;
+        flex-direction: row;
+        .bilderseksjon{
+            display: flex;
+            flex-flow: row wrap;
+            width: 700px;
+            
+        }
+
+        
+        .produktinfo{
+            width: 440px;
+        }
+    }
+}
