@@ -30,23 +30,25 @@
 }       
 
 .opplysninger{
+    
     form{
         display: flex;
         flex-direction: column;
-        gap: 15px
+        gap: 5px;
 
         label{
             display: flex;
             flex-direction: column;
             text-align: left;
             font-weight: bold;
-            margin-bottom: 5px;
         }
         
             input{
+                display: flex;
                 width: 100%;
                 padding: 15px;
                 box-sizing: border-box;
+                gap: 400px;
 
             }
 
@@ -67,3 +69,42 @@
 
 }
 
+.levering{
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+
+
+        fieldset{
+            border: none;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            label{
+                font-weight: bold;
+            }
+
+        }
+    }
+
+}
+
+.betaling{
+    form{
+        .check{
+            display: flex;
+            align-items: center;
+            padding: 0px;
+
+            input[type="checkbox"]{
+                padding: 0px;
+            }
+            p{
+                padding: 0px;
+            }
+        }
+    }
+}
