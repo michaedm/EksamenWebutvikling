@@ -6,6 +6,10 @@
 @use 'product' as *;
 @use 'checkout' as *;
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: $mainFont;
 }

@@ -36,3 +36,31 @@
 
     }
 }
+
+
+@media (min-width: 1024px){
+    .global-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+        nav{
+            ul{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        section{
+            display: flex;
+            gap: 10px;
+        }
+
+        
+        
+
+    }
+
+
+}

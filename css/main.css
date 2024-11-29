@@ -27,6 +27,23 @@
   text-decoration: none;
 }
 
+@media (min-width: 1024px) {
+  .global-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .global-header nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .global-header section {
+    display: flex;
+    gap: 10px;
+  }
+}
 .global-footer {
   display: flex;
   flex-direction: column;
@@ -281,6 +298,10 @@ main .anmeldelser article img {
 }
 .betaling form .check p {
   padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
