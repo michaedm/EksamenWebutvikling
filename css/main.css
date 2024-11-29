@@ -139,6 +139,7 @@ main section nav {
   list-style: none;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 main section nav a {
   padding: 10px 20px;
@@ -172,39 +173,40 @@ main .anmeldelser article img {
 }
 
 @media (min-width: 1024px) {
-  .populærproduktkort {
-    margin-top: 20px;
+  main .populærproduktkort {
     display: flex;
     flex-flow: row wrap;
   }
-  .populærproduktkort .produktkort {
+  main .populærproduktkort .produktkort {
     max-width: 350px;
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .kategorier {
+  main .kategorier {
     display: flex;
     flex-flow: row wrap;
+    padding: 0px;
+    gap: 5px;
   }
-  .kategorier h2, .kategorier p {
+  main .kategorier h2, main .kategorier p {
     width: 100%;
   }
-  .kategorier .categoricard1, .kategorier .categoricard2, .kategorier .categoricard3 {
-    max-width: 386px;
+  main .kategorier .categoricard1, main .kategorier .categoricard2, main .kategorier .categoricard3 {
+    flex: 0 1 386px;
   }
-  .kategorier .categoricard4 {
-    max-width: 864px;
+  main .kategorier .categoricard4 {
+    flex: 0 1 864px;
   }
-  .kategorier .categoricard5 {
-    max-width: 300px;
+  main .kategorier .categoricard5 {
+    flex: 0 1 300px;
   }
-  .kategorier .categoricard1, .kategorier .categoricard2, .kategorier .categoricard3, .kategorier .categoricard4, .kategorier .categoricard5 {
+  main .kategorier .categoricard1, main .kategorier .categoricard2, main .kategorier .categoricard3, main .kategorier .categoricard4, main .kategorier .categoricard5 {
     position: relative;
     height: 300px;
     overflow: hidden;
     text-align: center;
   }
-  .kategorier .categoricard1 img, .kategorier .categoricard2 img, .kategorier .categoricard3 img, .kategorier .categoricard4 img, .kategorier .categoricard5 img {
+  main .kategorier .categoricard1 img, main .kategorier .categoricard2 img, main .kategorier .categoricard3 img, main .kategorier .categoricard4 img, main .kategorier .categoricard5 img {
     position: absolute;
     top: 0;
     left: 0;
@@ -212,6 +214,19 @@ main .anmeldelser article img {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .anmeldelser {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px;
+  }
+  .anmeldelser h2 {
+    width: 100%;
+  }
+  .anmeldelser article {
+    display: flex;
+    width: 289px;
+    gap: 5px;
   }
 }
 .smulesti ul {
