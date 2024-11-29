@@ -94,6 +94,25 @@
 
 .betaling{
     form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        label{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            font-weight: bold;
+            
+            input{
+                width: 100%;
+                padding: 15px;
+
+            }
+
+
+
+        }    
         .check{
             display: flex;
             align-items: center;

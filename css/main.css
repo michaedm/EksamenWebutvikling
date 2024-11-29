@@ -256,6 +256,21 @@ main .anmeldelser article img {
   font-weight: bold;
 }
 
+.betaling form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.betaling form label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: bold;
+}
+.betaling form label input {
+  width: 100%;
+  padding: 15px;
+}
 .betaling form .check {
   display: flex;
   align-items: center;
