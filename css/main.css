@@ -328,6 +328,18 @@ main .anmeldelser article img {
     max-width: 160px;
     flex: 1;
   }
+  .lignendeprodukter {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .lignendeprodukter h2 {
+    width: 100%;
+  }
+  .lignendeprodukter .produktkort {
+    max-width: 350px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 .shoppingbag article {
   display: flex;
