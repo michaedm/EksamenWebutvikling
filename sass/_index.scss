@@ -91,7 +91,7 @@ main{
 
     .kategorier{
         display: flex;
-        flex-flow: wrap;
+        flex-flow: row wrap;
 
         
         h2, p{
@@ -109,11 +109,21 @@ main{
         .categoricard5{
             max-width: 300px;
         }
+        .categoricard1, .categoricard2, .categoricard3, .categoricard4, .categoricard5{
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
 
-        img{
-            object-fit: cover;
+
+        .categoricard1 img, .categoricard2 img, .categoricard3 img, .categoricard4 img, .categoricard5 img{
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
 
     }

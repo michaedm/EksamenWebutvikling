@@ -184,7 +184,7 @@ main .anmeldelser article img {
   }
   .kategorier {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
   }
   .kategorier h2, .kategorier p {
     width: 100%;
@@ -198,11 +198,20 @@ main .anmeldelser article img {
   .kategorier .categoricard5 {
     max-width: 300px;
   }
-  .kategorier img {
-    -o-object-fit: cover;
-       object-fit: cover;
+  .kategorier .categoricard1, .kategorier .categoricard2, .kategorier .categoricard3, .kategorier .categoricard4, .kategorier .categoricard5 {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .kategorier .categoricard1 img, .kategorier .categoricard2 img, .kategorier .categoricard3 img, .kategorier .categoricard4 img, .kategorier .categoricard5 img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .smulesti ul {
